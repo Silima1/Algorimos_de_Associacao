@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//udemy.com//Udemy
+METHOD:PUBLISH
+BEGIN:VEVENT
+ORGANIZER;CN="Udemy":mailto:no-reply@udemy.com
+SUMMARY:Hora de aprender!
+SEQUENCE:0
+DTSTAMP:20220728T115455Z
+DTSTART;TZID=Europe/Lisbon:20220728T030000
+DTEND;TZID=Europe/Lisbon:20220728T040000
+UID:844762
+RRULE:FREQ=DAILY;
+DESCRIPTION:Curso SQL Completo 2020  + Desafios + Muita Prática (https://www.udemy.com/course/curso-sql-completo-desafios-e-muita-pratica/learn/)
+
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Hora de aprender!
+END:VALARM
+END:VEVENT
+END:VCALENDAR
